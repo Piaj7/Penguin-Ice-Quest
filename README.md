@@ -81,7 +81,14 @@ The system should:
 - Be scalable to allow future additions such as new levels or enemies
 
 ## 7. Game Rules & Mechanics
-
+- The player begins each level with three lives.
+- The player can move left and right and jump to navigate platforms.
+- Fish collectibles are placed throughout the level and increase the player’s total fish count when collected.
+- If the player collides with an enemy or hazard, one life is lost.
+- When all lives are lost, the game enters a 'Game Over' state, where the player can choose to restart the level or return to the main menu.
+- The level is completed when the player reaches the end goal area.
+- A required number of fish must be collected to unlock the next level.
+- Each new level may introduce increased difficulty, such as more enemies or more complex platform layouts.
 
 ## 8. Development Strategy
 
