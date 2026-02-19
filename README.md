@@ -43,6 +43,7 @@ The game is designed to be:
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ab70bdc2-d6e6-4f59-86d3-65458ad82a33" />
 
 ### User Profile 2
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/dd116292-daa7-47bf-bd0a-dca69647ed4b" />
 
 
 ## 5. User Requirements
