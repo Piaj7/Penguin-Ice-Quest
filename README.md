@@ -59,7 +59,18 @@ Users MUST be able to:
 
 ## 6. System Requirements
 ### Functional Requiremnts
-
+The system must:
+- Support player movement (left/right) and jumping using keyboard input
+- Detect collisions between the player, platforms, enemies, hazards, and collectibles
+- Increase the fish counter when a fish collectible is collected
+- Decrease the player’s lives when the player collides with an enemy or hazard
+- Trigger a Game Over state when the player’s lives reach zero
+- Provide the player with the option to:
+- Restart the current level
+- Return to the main menu
+- Trigger a level completion state when the player reaches the end of the level
+- Unlock the next level when the required number of fish has been collected
+- Display the fish counter and remaining lives on-screen during gameplay
 
 ### Non-Functional Requirements
 
