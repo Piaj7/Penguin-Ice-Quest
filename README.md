@@ -29,7 +29,14 @@ This project was developed individually. All stages of development, including pl
 
 ## 3. Target Audience
 ### Primary Target Audience:
+The primary target audience for Penguin Ice Quest is casual gamers aged 4 and above who enjoy 2D side-scrolling platform games similar to classic titles such as Mario.
 
+The game is designed to be:
+- Easy to learn and understand
+- Suitable for short, casual play sessions
+- Replayable, encouraging players to collect fish in order to progress to the next level
+- Accessible for all skill levels
+- Enjoyable for more experienced players
 
 ## 4. User Profiles
 ### User Profile 1
