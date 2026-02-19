@@ -25,7 +25,7 @@ The player begins with three lives and must collect a required number of fish to
 The game concept was inspired by the mobile platform game Lep’s World. While inspired by Lep’s World, Penguin Ice Quest features original characters, environments, and gameplay mechanics
 
 ## 2. Breakdown
-
+This project was developed individually. All stages of development, including planning, implementation, testing, documentation, and evaluation, were completed independently.
 
 ## 3. Target Audience
 ### Primary Target Audience:
