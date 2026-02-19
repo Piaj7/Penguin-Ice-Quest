@@ -40,6 +40,7 @@ The game is designed to be:
 
 ## 4. User Profiles
 ### User Profile 1
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ab70bdc2-d6e6-4f59-86d3-65458ad82a33" />
 
 ### User Profile 2
 
