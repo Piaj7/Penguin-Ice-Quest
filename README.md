@@ -47,7 +47,15 @@ The game is designed to be:
 
 
 ## 5. User Requirements
-
+Users MUST be able to:
+- Move left and right using keyboard controls
+- Jump to reach platforms and avoid obstacles
+- Collect fish pickups during gameplay
+- Lose a life when colliding with an enemy or hazard
+- Unlock and access the next level after collecting the required number of fish
+- View the current number of lives remaining on the UI
+- Restart the level after losing all lives
+- Pause or quit back to the main menu
 
 ## 6. System Requirements
 ### Functional Requiremnts
