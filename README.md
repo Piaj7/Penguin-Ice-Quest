@@ -91,12 +91,19 @@ The system should:
 - Each new level may introduce increased difficulty, such as more enemies or more complex platform layouts.
 
 ## 8. Development Strategy
+This software development project was developed using an Agile Scrum-based methodology. The whole development process was decomposed into short, manageable time periods called sprints. Each sprint focused on implementing and testing specific features of the game.
 
+A product backlog was made at the start of the project to list all required features and tasks. These tasks were ordered based on importance and development difficulty. During each sprint, selected backlog items were implemented, tested, and reviewed.
+
+Progress was monitored using weekly development logs and backlog reviews. Completed features were evaluated, and any issues were identified and resolved before progressing.
+
+GitHUb was used for regular commits and backups throughout development. This helped to track changes and reduce the risk of any work getting lost or corrupt.
 
 ### Advantages
+The use of an Agile approach allowed flexibility during development, enabling features to be improved or adjusted based on testing results and time constraints.
 
 ### Disadvantages
-
+Planning and reviewing sprints alone required strong self-discipline and time management. Some features had to be simplified or postponed due to limited development time within each sprint. Maintaining detailed documentation alongside development was time-consuming because I was developing alone.
 ## 9. Scrum Backlog
 
 ## 10. Design & Storyboard Mock-ups
