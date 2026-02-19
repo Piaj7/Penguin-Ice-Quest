@@ -73,7 +73,12 @@ The system must:
 - Display the fish counter and remaining lives on-screen during gameplay
 
 ### Non-Functional Requirements
-
+The system should:
+- Run smoothly with responsive controls and minimal input delay
+- Maintain stable performance without crashes during gameplay
+- Provide a clear and readable user interface
+- Be structured using modular and organised Blueprints for maintainability
+- Be scalable to allow future additions such as new levels or enemies
 
 ## 7. Game Rules & Mechanics
 
