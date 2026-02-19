@@ -18,7 +18,11 @@ Penguin Ice Quest is a 2D side-scrolling platform game in which the player contr
 14. [Evaluation](#14-evaluation)
    
 ## 1. Project Overview
+Penguin Ice Quest is a 2D side-scrolling platform game in which the player controls a penguin navigating through icy environments. The aim of the game is to collect fish, avoid enemies, and minimise damage while progressing to the end of each level.
 
+The player begins with three lives and must collect a required number of fish to unlock new levels. As the game progresses, levels increase in difficulty, introducing new challenges and obstacles.
+
+The game concept was inspired by the mobile platform game Lep’s World. While inspired by Lep’s World, Penguin Ice Quest features original characters, environments, and gameplay mechanics
 
 ## 2. Breakdown
 
