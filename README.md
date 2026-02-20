@@ -147,6 +147,19 @@ The user interface is minimal and easy to understand. The player’s remaining l
 Design mock-ups, level sketches, and in-game screenshots will be added as development progresses.
 
 ## 11. Development Log
+### Week 1 - Project Setup & Planning
+#### Date: W/C 16 February 2026
+#### Completed:
+- Created GitHub repository
+- Structured README file
+- Sections 1-8 of README completed
+- Planned inital Scrum backlog
+- Set up Unreal Engine Project
+- Implemented basic player movement
+
+#### Planned for Next Week:
+
+#### Problems / Barriers
 
 ## 12. Testing
 
