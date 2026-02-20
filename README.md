@@ -126,6 +126,25 @@ Planning and reviewing sprints alone required strong self-discipline and time ma
 
 
 ## 10. Design & Storyboard Mock-ups
+The visual design of Penguin Ice Quest follows an ice-themed style, using a blue and white colour palette to represent frozen environments. Levels take place in snowy landscapes, icy platforms, and frozen caves, helping to maintain visual consistency throughout the game.
+
+The main character is a cartoon-style penguin designed to be easily recognisable and appealing to players of all ages. Enemies are also created in a simple, animated style to match the overall theme and tone of the game.
+
+Each level is structured to gradually introduce new challenges, such as moving platforms, gaps over water, and enemy patrols. Early levels act as tutorials, while later stages increase in difficulty through more complex layouts and obstacles.
+
+The user interface is minimal and easy to understand. The player’s remaining lives and fish count are displayed on-screen at all times to provide continuous feedback.
+
+### Storyboard Flow
+
+1. The game begins at the main menu, where the player can start a new game or exit.
+2. The player is placed at the beginning of a level in an icy environment.
+3. The player navigates platforms, avoids enemies, and collects fish.
+4. If all lives are lost, a Game Over screen appears with options to restart or return to the menu.
+5. When the player reaches the level exit, the level is completed.
+6. If enough fish have been collected, the next level is unlocked.
+7. The player progresses through increasingly challenging levels until the final stage is completed.
+
+Design mock-ups, level sketches, and in-game screenshots will be added as development progresses.
 
 ## 11. Development Log
 
