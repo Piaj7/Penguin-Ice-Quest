@@ -105,6 +105,25 @@ The use of an Agile approach allowed flexibility during development, enabling fe
 ### Disadvantages
 Planning and reviewing sprints alone required strong self-discipline and time management. Some features had to be simplified or postponed due to limited development time within each sprint. Maintaining detailed documentation alongside development was time-consuming because I was developing alone.
 ## 9. Scrum Backlog
+| ID | Feature / Task      | Priority | Status      | Test Method                        |
+| -- | ------------------- | -------- | ----------- | ---------------------------------- |
+| 1  | Project setup       | High     | Planned     | Project opens without errors       |
+| 2  | Player movement     | High     | Planned     | Character moves smoothly           |
+| 3  | Jump system         | High     | Planned     | Player can clear small gaps        |
+| 4  | Camera follow       | High     | Planned     | Camera follows player correctly    |
+| 5  | Level 1 design      | High     | Planned     | Level loads and is playable        |
+| 6  | Fish collectibles   | High     | Planned     | Fish increases score on collection |
+| 7  | UI (lives & score)  | High     | Planned     | UI updates correctly               |
+| 8  | Enemy AI            | Medium   | Planned     | Enemy damages player on contact    |
+| 9  | Life system         | Medium   | Planned     | Lives decrease correctly           |
+| 10 | Game Over screen    | Medium   | Planned     | Restart/menu options work          |
+| 11 | Level progression   | Medium   | Planned     | Next level unlocks correctly       |
+| 12 | Main menu           | Low      | Planned     | Menu navigates correctly           |
+| 13 | Sound effects       | Low      | Planned     | Sounds play at correct events      |
+| 14 | Bug fixing & polish | High     | Planned     | No major bugs remain               |
+| 15 | Final testing       | High     | Planned     | All tests pass                     |
+
+
 
 ## 10. Design & Storyboard Mock-ups
 
