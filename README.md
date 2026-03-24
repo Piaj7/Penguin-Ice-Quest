@@ -227,11 +227,11 @@ Design mock-ups, level sketches, and in-game screenshots will be added as develo
 ### Bugs
 Here are some bugs that were fixed
 
-| Bug ID | Issue                         | Cause                                                                            | Fix Applied                                                                 | Retest |
-| -----: | ----------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------ |
-|    B1 | 
-|    B2 | 
-|    B3 | 
+| Bug ID | Issue                         | Cause                          | Fix Applied                        | Retest |
+| -----: | ----------------------------- | ------------------------------ | ---------------------------------- | ------ |
+| B1     | Jump felt too slow            | Low jump force                 | Increased jump strength            | Pass   |
+| B2     | Player clipping platform edge | Collision not properly aligned | Adjusted collision settings        | Pass   |
+| B3     | Movement too fast             | Speed value too high           | Reduced movement speed             | Pass   |
 
 ### Conclusion 
 
