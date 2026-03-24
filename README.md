@@ -22,7 +22,7 @@ Penguin Ice Quest is a 2D side-scrolling platform game in which the player contr
 
 The player begins with three lives and must collect a required number of fish to unlock new levels. As the game progresses, levels increase in difficulty, introducing new challenges and obstacles.
 
-The game concept was inspired by the mobile platform game Lep’s World. While inspired by Lep’s World, Penguin Ice Quest features original characters, environments, and gameplay mechanics
+The game concept was inspired by the mobile platform game Lep’s World. While inspired by Lep’s World, Penguin Ice Quest features original characters, environments, and gameplay mechanics.
 
 ## 2. Breakdown
 This project was developed individually. All stages of development, including planning, implementation, testing, documentation, and evaluation, were completed independently.
@@ -243,7 +243,9 @@ Testing confirmed that core gameplay mechanics such as movement, jumping, and pl
 # 14. Evaluation
 
 The project has successfully progressed through the early development stages, with core gameplay features such as movement, jumping, and basic level design implemented. This demonstrates that the project has a functioning foundation on which additional mechanics can be built.
-One strength of the project is the use of Agile methodology to organise development into manageable stages. Weekly planning, backlog management, and regular testing helped keep the work structured and supported incremental progress. The modular design approach also improves maintainability and supports future expansion.
-However, the project is still in development, and several planned features such as enemies, UI systems, and level progression have not yet been fully implemented. Time management was also a challenge when balancing practical development with documentation.
-In future development, the project will be improved by adding more gameplay systems, refining the existing mechanics, and carrying out broader testing. Overall, the project demonstrates a clear understanding of software development processes, early-stage implementation, and game design principles.
 
+One strength of the project is the use of Agile methodology to organise development into manageable stages. Weekly planning, backlog management, and regular testing helped keep the work structured and supported incremental progress. The modular design approach also improves maintainability and supports future expansion.
+
+However, the project is still in development, and several planned features such as enemies, UI systems, and level progression have not yet been fully implemented. Time management was also a challenge when balancing practical development with documentation.
+
+In future development, the project will be improved by adding more gameplay systems, refining the existing mechanics, and carrying out broader testing. Overall, the project demonstrates a clear understanding of software development processes, early-stage implementation, and game design principles.
