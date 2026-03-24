@@ -234,12 +234,19 @@ Here are some bugs that were fixed
 | B3     | Movement too fast             | Speed value too high           | Reduced movement speed             | Pass   |
 
 ### Conclusion 
-
+Testing confirmed that core gameplay mechanics such as movement, jumping, and platform collision are functioning correctly. Minor issues were identified and resolved, improving overall gameplay stability. Further testing will be required as additional features are implemented.
 
 # 13. References
 
 
 # 14. Evaluation
 
+The project has successfully progressed through the initial development stages, with core gameplay features such as movement, jumping, and level design implemented.
+
+One of the strengths of the project is the clear structure and planning using Agile methodology, which helped organise development into manageable stages. The use of modular design also supports future expansion.
+
+However, development is still ongoing, and some planned features such as enemies, UI systems, and level progression have not yet been fully implemented. Time management was a challenge when balancing development and documentation.
+
+In the future, the project will be improved by adding more gameplay features, refining mechanics, and completing full testing. Overall, the project demonstrates a solid understanding of software development processes and game design principles.
 
 
