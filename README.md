@@ -58,7 +58,7 @@ Users MUST be able to:
 - Pause or quit back to the main menu
 
 ## 6. System Requirements
-### Functional Requiremnts
+### Functional Requirements
 The system must:
 - Support player movement (left/right) and jumping using keyboard input
 - Detect collisions between the player, platforms, enemies, hazards, and collectibles
@@ -97,7 +97,7 @@ A product backlog was made at the start of the project to list all required feat
 
 Progress was monitored using weekly development logs and backlog reviews. Completed features were evaluated, and any issues were identified and resolved before progressing.
 
-GitHUb was used for regular commits and backups throughout development. This helped to track changes and reduce the risk of any work getting lost or corrupt.
+GitHub was used for regular commits and backups throughout development. This helped to track changes and reduce the risk of any work getting lost or corrupt.
 
 ### Advantages
 The use of an Agile approach allowed flexibility during development, enabling features to be improved or adjusted based on testing results and time constraints.
@@ -153,7 +153,7 @@ Design mock-ups, level sketches, and in-game screenshots will be added as develo
 - Created GitHub repository
 - Structured README file
 - Sections 1-8 of README completed
-- Planned inital Scrum backlog
+- Planned initial Scrum backlog
 - Set up Unreal Engine Project
 - Implemented basic player movement
 
