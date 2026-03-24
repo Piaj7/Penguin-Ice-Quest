@@ -211,7 +211,7 @@ Design mock-ups, level sketches, and in-game screenshots will be added as develo
 
 
 ### Test Plan
-
+The initial test plan focused on the core gameplay mechanics implemented during early development. These included player movement, jumping, collision detection, and general game stability. Further tests will be added as features such as collectibles, UI, enemies, and progression systems are implemented.
 ### Test Log
 | Test ID | Test Description        | Steps                          | Expected Result                          | Actual Result                  |
 | ------: | ---------------------- | ------------------------------ | ---------------------------------------- | ------------------------------ |
@@ -237,16 +237,13 @@ Here are some bugs that were fixed
 Testing confirmed that core gameplay mechanics such as movement, jumping, and platform collision are functioning correctly. Minor issues were identified and resolved, improving overall gameplay stability. Further testing will be required as additional features are implemented.
 
 # 13. References
-
+- Epic Games. Unreal Engine Documentation.
+- Lep’s World gameplay inspiration.
 
 # 14. Evaluation
 
-The project has successfully progressed through the initial development stages, with core gameplay features such as movement, jumping, and level design implemented.
-
-One of the strengths of the project is the clear structure and planning using Agile methodology, which helped organise development into manageable stages. The use of modular design also supports future expansion.
-
-However, development is still ongoing, and some planned features such as enemies, UI systems, and level progression have not yet been fully implemented. Time management was a challenge when balancing development and documentation.
-
-In the future, the project will be improved by adding more gameplay features, refining mechanics, and completing full testing. Overall, the project demonstrates a solid understanding of software development processes and game design principles.
-
+The project has successfully progressed through the early development stages, with core gameplay features such as movement, jumping, and basic level design implemented. This demonstrates that the project has a functioning foundation on which additional mechanics can be built.
+One strength of the project is the use of Agile methodology to organise development into manageable stages. Weekly planning, backlog management, and regular testing helped keep the work structured and supported incremental progress. The modular design approach also improves maintainability and supports future expansion.
+However, the project is still in development, and several planned features such as enemies, UI systems, and level progression have not yet been fully implemented. Time management was also a challenge when balancing practical development with documentation.
+In future development, the project will be improved by adding more gameplay systems, refining the existing mechanics, and carrying out broader testing. Overall, the project demonstrates a clear understanding of software development processes, early-stage implementation, and game design principles.
 
