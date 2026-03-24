@@ -158,8 +158,54 @@ Design mock-ups, level sketches, and in-game screenshots will be added as develo
 - Implemented basic player movement
 
 #### Planned for Next Week:
-
+- Improved player movement responsiveness
+- Adjusted jump physics
+  
 #### Problems / Barriers
+- Time constraints
+  
+### Week 2 - Core Gameplay Development
+#### Completed:
+- Improved player movement responsiveness
+- Adjusted jump physics
+- Created basic level layout with platforms
+
+#### Planned for Next Week:
+- Add fish collectibles
+- Begin UI implementation
+
+#### Problems / Barriers:
+- Movement initially felt too fast and unrealistic
+
+---
+
+### Week 3 - Level & Mechanics
+#### Completed:
+- Refined level layout
+- Tested platform collisions
+- Began planning collectible system
+
+#### Planned for Next Week:
+- Implement fish collection system
+- Start UI display
+
+#### Problems / Barriers:
+- Collision inconsistencies at platform edges
+
+---
+
+### Week 4 - Testing & Improvements
+#### Completed:
+- Tested gameplay mechanics
+- Improved level design
+- Reviewed backlog progress
+
+#### Planned for Next Week:
+- Implement lives system
+- Add Game Over functionality
+
+#### Problems / Barriers:
+- Time management balancing development and documentation
 
 ## 12. Testing
 
