@@ -213,22 +213,16 @@ Design mock-ups, level sketches, and in-game screenshots will be added as develo
 ### Test Plan
 
 ### Test Log
-| Test ID | Test Description                       | Steps                             | Expected Result                                     | Actual Result |
-| ------: | -------------------------------------- | --------------------------------- | --------------------------------------------------- | ------------- |
-|     T1 | 
-|     T2 | 
-|     T3 | 
-|     T4 | 
-|     T5 | 
-|     T6 | 
-|     T7 | 
-|     T8 | 
-|     T9 | 
-|     T10 | 
-|     T11 |
-|     T12 | 
-|     T13 | 
-|     T14 |
+| Test ID | Test Description        | Steps                          | Expected Result                          | Actual Result                  |
+| ------: | ---------------------- | ------------------------------ | ---------------------------------------- | ------------------------------ |
+| T1      | Player movement        | Press left/right keys          | Player moves smoothly                    | Movement works correctly       |
+| T2      | Jump system            | Press jump key                 | Player jumps and lands on platform       | Jump works correctly           |
+| T3      | Platform collision     | Land on platform               | Player does not fall through             | Collision works                |
+| T4      | Edge detection         | Walk to edge of platform       | Player stops correctly                   | Works as expected              |
+| T5      | Game stability         | Play level for extended time   | Game runs without crashing               | Stable                         |
+| T6      | Movement consistency   | Repeated movement inputs       | No lag or delay                          | Works correctly                |
+| T7      | Jump height            | Jump across gap                | Player clears gap                        | Works correctly                |
+| T8      | Gravity behaviour      | Fall from platform             | Player falls naturally                   | Works correctly                |
 
 ### Bugs
 Here are some bugs that were fixed
