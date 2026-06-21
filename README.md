@@ -10,12 +10,14 @@ Penguin Ice Quest is a 2D side-scrolling platform game in which the player contr
 6. [System Requirements](#6-system-requirements)
 7. [Game Rules & Mechanics](#7-game-rules--mechanics)
 8. [Development Strategy](#8-development-strategy)
-9. [Scrum Backlog](#9-scrum-backlog)
-10. [Design & Storyboard Mock-ups](#10-design--storyboard-mock-ups)
-11. [Development Log](#11-development-log)
-12. [Testing](#12-testing)
-13. [References](#13-references)
-14. [Evaluation](#14-evaluation)
+9. [Game Design](#9-game-design)
+10. [Technology Used](#10-technology-used)
+11. [Development Strategy](#11-development-strategy)
+12. [Scrum Backlog](#12-scrum-backlog)
+13. [Project Management](#13-project-management)
+14. [Testing](#14-testing)
+15. [Challenges & Solutions](#15-challenges--solutions)
+16. [Evaluation](#16-evaluation)
    
 ## 1. Project Overview
 Penguin Ice Quest is a 2D side-scrolling platform game in which the player controls a penguin navigating through icy environments. The aim of the game is to collect fish, avoid enemies, and minimise damage while progressing to the end of each level.
@@ -104,7 +106,62 @@ The use of an Agile approach allowed flexibility during development, enabling fe
 
 ### Disadvantages
 Planning and reviewing sprints alone required strong self-discipline and time management. Some features had to be simplified or postponed due to limited development time within each sprint. Maintaining detailed documentation alongside development was time-consuming because I was developing alone.
-## 9. Scrum Backlog
+
+## 9. Game Design
+Player
+
+The player controls the main character using keyboard input. The character can move left and right across the level and perform jumps to navigate obstacles and platforms. The movement system was designed to be responsive and easy to use, ensuring that players can accurately control the character throughout gameplay.
+
+Environment
+
+The game takes place in a 2D platforming environment consisting of multiple platforms positioned at varying heights. The player must navigate these platforms while avoiding hazards and collecting items. The environment is designed to gradually increase the challenge by requiring more accurate jumps and movement.
+
+Gameplay Loop
+
+The core gameplay loop follows a simple platform game structure:
+
+Explore Level → Move Between Platforms → Collect Items → Avoid Hazards → Reach Level Exit → Progress
+
+This loop provides the player with clear objectives while encouraging exploration and skill development throughout the game.
+
+Game Rules
+The player can move left and right using keyboard controls.
+The player can jump to reach higher platforms.
+Falling off the level results in failure and a restart.
+Collectibles can be gathered to increase progression.
+The objective is to reach the end of the level successfully.
+## 10. Technology Used
+Game Engine
+
+Godot Engine
+
+Programming Language
+
+GDScript
+
+Development Tools
+Godot Editor
+Visual Studio Code
+GitHub
+Git Version Control
+
+Godot was selected because it provides a lightweight development environment with strong support for 2D game development. The engine includes built-in physics, collision detection and scene management systems, allowing core gameplay mechanics to be implemented efficiently.
+
+GitHub was used for version control throughout development, enabling project progress to be tracked and changes to be managed effectively.
+## 11. Development Strategy
+The project follows an iterative development strategy based on Agile principles. This approach was chosen because it allows the game to be developed in small, manageable stages while continuously reviewing progress.Instead of attempting to build the entire game at once, the development was broken down into smaller features such as movement, jumping and collision detection. Each feature would be planned, implemented and then tested before moving on to the next stage. This reduces the risk of major errors and makes debugging easier.A Scrum-style workflow was used to organise tasks. Features were added to a backlog and prioritised based on importance. Core mechanics such as player movement and jumping were given the highest priority, while additional features like coins and enemies were considered lower priority and planned for later stages.This structured approach ensured that the most important parts of the game were focused on first. It also allowed flexibility, meaning changes could be made if issues were identified during development.Version control using GitHub was used to manage the project. This allowed progress to be tracked over time and ensured that different versions of the work could be saved and reviewed.
+
+## 12. Scrum Backlog
+Feature	Priority	Description	Test Criteria
+Player Movement	High	Allow the player to move left and right using keyboard input	Player moves smoothly left/right when keys are pressed
+Jump Mechanic	High	Implement jumping using gravity and physics	Player jumps and lands naturally without floating
+Platform Collision	High	Ensure player can stand on platforms without falling through	Player lands on platforms and does not pass through them
+Camera Follow	Medium	Camera follows the player as they move through the level	Camera tracks player smoothly without lag
+Level Design	Medium	Create platforms at different heights for navigation	Player can move across the level using jumps
+Game Restart	High	Allow the game to restart after player falls or loses	Game resets correctly when player loses
+Testing & Debugging	High	Identify and fix bugs in movement and collisions	No major bugs during gameplay
+
+Scrum Backlog
 | ID | Feature / Task      | Priority | Status        | Test Method                        |
 | -- | ------------------- | -------- | ------------- | ---------------------------------- |
 | 1  | Project setup       | High     | Complete      | Project opens without errors       |
@@ -123,129 +180,59 @@ Planning and reviewing sprints alone required strong self-discipline and time ma
 | 14 | Bug fixing & polish | High     | In Progress   | No major bugs remain               |
 | 15 | Final testing       | High     | Planned       | All tests pass                     |
 
+## 13. Project Management
+Development Log
+Week 1
+Set up project and planned features.
 
+Week 2
+Created game window and player.
 
-## 10. Design & Storyboard Mock-ups
-The visual design of Penguin Ice Quest follows an ice-themed style, using a blue and white colour palette to represent frozen environments. Levels take place in snowy landscapes, icy platforms, and frozen caves, helping to maintain visual consistency throughout the game.
+Week 3
+Implemented movement and jumping.
 
-The main character is a cartoon-style penguin designed to be easily recognisable and appealing to players of all ages. Enemies are also created in a simple, animated style to match the overall theme and tone of the game.
+Week 4
+Worked on collisions and level design.
 
-Each level is structured to gradually introduce new challenges, such as moving platforms, gaps over water, and enemy patrols. Early levels act as tutorials, while later stages increase in difficulty through more complex layouts and obstacles.
+Week 5
+Added enemies and coins.
 
-The user interface is minimal and easy to understand. The player’s remaining lives and fish count are displayed on-screen at all times to provide continuous feedback.
+Week 6
+Testing and bug fixing.
 
-### Storyboard Flow
+Development Meetings
+Development Meetings
+Meeting 1
+Discussed overall game idea and core features. Decided to focus on a simple platformer with movement and jumping.
 
-1. The game begins at the main menu, where the player can start a new game or exit.
-2. The player is placed at the beginning of a level in an icy environment.
-3. The player navigates platforms, avoids enemies, and collects fish.
-4. If all lives are lost, a Game Over screen appears with options to restart or return to the menu.
-5. When the player reaches the level exit, the level is completed.
-6. If enough fish have been collected, the next level is unlocked.
-7. The player progresses through increasingly challenging levels until the final stage is completed.
+Meeting 2
+Reviewed progress and identified challenges with implementing physics and collision detection. Planned next steps for improving gameplay.
 
-Design mock-ups, level sketches, and in-game screenshots will be added as development progresses.
+Meeting 3
+Evaluated overall project progress and focused on documentation, testing and final improvements.
 
-## 11. Development Log
-### Week 1 - Project Setup & Planning
-#### Date: W/C 16 February 2026
-#### Completed:
-- Created GitHub repository
-- Structured README file
-- Sections 1-8 of README completed
-- Planned initial Scrum backlog
-- Set up Unreal Engine Project
-- Implemented basic player movement
+## 14. Testing
+| Test               | Expected Result                | Actual Result                | Status |
+| ------------------ | ------------------------------ | ---------------------------- | ------ |
+| Move Left          | Player moves left              | Player moved left correctly  | Pass   |
+| Move Right         | Player moves right             | Player moved right correctly | Pass   |
+| Jump               | Player jumps and lands         | Jump worked correctly        | Pass   |
+| Platform Collision | Player lands on platform       | No clipping detected         | Pass   |
+| Collect Item       | Item disappears when collected | Item collected successfully  | Pass   |
+| Reach Exit         | Next level loads               | Level completed correctly    | Pass   |
+| Fall Off Map       | Level restarts                 | Restart triggered correctly  | Pass   |
 
-#### Planned for Next Week:
-- Improved player movement responsiveness
-- Adjusted jump physics
-  
-#### Problems / Barriers
-- Time constraints
-  
-### Week 2 - Core Gameplay Development
-#### Completed:
-- Improved player movement responsiveness
-- Adjusted jump physics
-- Created basic level layout with platforms
+## 15. Challenges & Solutions
+One challenge was implementing collision detection between the player and platforms. This caused issues where the player would fall through objects. Another problem was time along with. getting the jump mechanics to feel smooth, which required adjusting gravity and jump strength.
 
-#### Planned for Next Week:
-- Add fish collectibles
-- Begin UI implementation
+## 16. Evaluation
+The project successfully demonstrates the development of a functional 2D platform game. Core gameplay features including player movement, jumping, collision detection and level navigation were implemented successfully. The project also demonstrates the use of software development principles such as planning, testing, debugging and iterative development.
 
-#### Problems / Barriers:
-- Movement initially felt too fast and unrealistic
+One of the project's main strengths is the implementation of responsive player controls, which provide a solid gameplay experience. The use of a structured development process also helped organise tasks and monitor progress throughout the project lifecycle.
 
----
+However, the project has several limitations. Due to time constraints, some planned features were simplified or not fully implemented. Additional levels, improved artwork, sound effects and more advanced enemy behaviours would further enhance the player experience.
 
-### Week 3 - Level & Mechanics
-#### Completed:
-- Refined level layout
-- Tested platform collisions
-- Began planning collectible system
+Future development could include additional levels, improved visual assets, enhanced user interface elements, a scoring system, save functionality and more complex gameplay mechanics. These improvements would increase both the depth and replayability of the game.
 
-#### Planned for Next Week:
-- Implement fish collection system
-- Start UI display
+Overall, the project achieved its primary objectives and provided valuable experience in software design, implementation, testing and project management.
 
-#### Problems / Barriers:
-- Collision inconsistencies at platform edges
-
----
-
-### Week 4 - Testing & Improvements
-#### Completed:
-- Tested gameplay mechanics
-- Improved level design
-- Reviewed backlog progress
-
-#### Planned for Next Week:
-- Implement lives system
-- Add Game Over functionality
-
-#### Problems / Barriers:
-- Time management balancing development and documentation
-
-## 12. Testing
-
-
-### Test Plan
-The initial test plan focused on the core gameplay mechanics implemented during early development. These included player movement, jumping, collision detection, and general game stability. Further tests will be added as features such as collectibles, UI, enemies, and progression systems are implemented.
-### Test Log
-| Test ID | Test Description        | Steps                          | Expected Result                          | Actual Result                  |
-| ------: | ---------------------- | ------------------------------ | ---------------------------------------- | ------------------------------ |
-| T1      | Player movement        | Press left/right keys          | Player moves smoothly                    | Movement works correctly       |
-| T2      | Jump system            | Press jump key                 | Player jumps and lands on platform       | Jump works correctly           |
-| T3      | Platform collision     | Land on platform               | Player does not fall through             | Collision works                |
-| T4      | Edge detection         | Walk to edge of platform       | Player stops correctly                   | Works as expected              |
-| T5      | Game stability         | Play level for extended time   | Game runs without crashing               | Stable                         |
-| T6      | Movement consistency   | Repeated movement inputs       | No lag or delay                          | Works correctly                |
-| T7      | Jump height            | Jump across gap                | Player clears gap                        | Works correctly                |
-| T8      | Gravity behaviour      | Fall from platform             | Player falls naturally                   | Works correctly                |
-
-### Bugs
-Here are some bugs that were fixed
-
-| Bug ID | Issue                         | Cause                          | Fix Applied                        | Retest |
-| -----: | ----------------------------- | ------------------------------ | ---------------------------------- | ------ |
-| B1     | Jump felt too slow            | Low jump force                 | Increased jump strength            | Pass   |
-| B2     | Player clipping platform edge | Collision not properly aligned | Adjusted collision settings        | Pass   |
-| B3     | Movement too fast             | Speed value too high           | Reduced movement speed             | Pass   |
-
-### Conclusion 
-Testing confirmed that core gameplay mechanics such as movement, jumping, and platform collision are functioning correctly. Minor issues were identified and resolved, improving overall gameplay stability. Further testing will be required as additional features are implemented.
-
-# 13. References
-- Epic Games. Unreal Engine Documentation.
-- Lep’s World gameplay inspiration.
-
-# 14. Evaluation
-
-The project has successfully progressed through the early development stages, with core gameplay features such as movement, jumping, and basic level design implemented. This demonstrates that the project has a functioning foundation on which additional mechanics can be built.
-
-One strength of the project is the use of Agile methodology to organise development into manageable stages. Weekly planning, backlog management, and regular testing helped keep the work structured and supported incremental progress. The modular design approach also improves maintainability and supports future expansion.
-
-However, the project is still in development, and several planned features such as enemies, UI systems, and level progression have not yet been fully implemented. Time management was also a challenge when balancing practical development with documentation.
-
-In future development, the project will be improved by adding more gameplay systems, refining the existing mechanics, and carrying out broader testing. Overall, the project demonstrates a clear understanding of software development processes, early-stage implementation, and game design principles.
