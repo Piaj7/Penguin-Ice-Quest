@@ -154,6 +154,15 @@ The project follows an iterative development strategy based on Agile principles.
 ### Burndownm chart 
 The burndown chart demonstrates the gradual completion of project tasks throughout development. Core gameplay mechanics such as movement, jumping and collision detection were prioritised first, followed by level design, collectibles, enemy implementation, testing and documentation. The chart shows a steady reduction in remaining work, reflecting the iterative Agile-inspired development process used throughout the project.
 
+| Week | Tasks Remaining |
+|------|----------------|
+| 1 | 15 |
+| 2 | 13 |
+| 3 | 10 |
+| 4 | 7 |
+| 5 | 4 |
+| 6 | 0 |
+
 
 ### State Diagram
                  ┌───────────┐
@@ -219,7 +228,8 @@ Scrum Backlog
 - Structured README file
 - Sections 1-8 of README completed
 - Planned initial Scrum backlog
-- Set up Unreal Engine Project
+- Set up Godot project structure
+- Configured initial scenes and player character
 - Implemented basic player movement
 
 #### Planned for Next Week:
@@ -333,8 +343,13 @@ Current Problems:
 | Fall Off Map       | Level restarts                 | Restart triggered correctly  | Pass   |
 
 ## 15. Challenges & Solutions
-One challenge was implementing collision detection between the player and platforms. This caused issues where the player would fall through objects. Another problem was time along with. getting the jump mechanics to feel smooth, which required adjusting gravity and jump strength.
-
+One challenge was implementing collision detection between the player and platforms. This caused issues where the player would fall through objects. Another challenge was balancing development time while refining the jump mechanics. Several adjustments to gravity and jump strength were required before the controls felt responsive and natural.
+### Gameplay Screenshot 1 Main Menu
+### Gameplay Screenshot 2 Gameplay
+### Gameplay Screenshot 3 Collectible Fish
+### Gameplay Screenshot 4 Enemy Hazard
+### Gameplay Screenshot 5 Level Complete
+### Gameplay Screenshot 6 Game Over
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b7921db6-2030-4b30-b78a-a748ea9616ee" />
 
 ## 16. Evaluation
