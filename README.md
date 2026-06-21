@@ -151,6 +151,37 @@ GitHub was used for version control throughout development, enabling project pro
 ## 11. Development Strategy
 The project follows an iterative development strategy based on Agile principles. This approach was chosen because it allows the game to be developed in small, manageable stages while continuously reviewing progress.Instead of attempting to build the entire game at once, the development was broken down into smaller features such as movement, jumping and collision detection. Each feature would be planned, implemented and then tested before moving on to the next stage. This reduces the risk of major errors and makes debugging easier.A Scrum-style workflow was used to organise tasks. Features were added to a backlog and prioritised based on importance. Core mechanics such as player movement and jumping were given the highest priority, while additional features like coins and enemies were considered lower priority and planned for later stages.This structured approach ensured that the most important parts of the game were focused on first. It also allowed flexibility, meaning changes could be made if issues were identified during development.Version control using GitHub was used to manage the project. This allowed progress to be tracked over time and ensured that different versions of the work could be saved and reviewed.
 
+### Burndownm chart 
+The burndown chart demonstrates the gradual completion of project tasks throughout development. Core gameplay mechanics such as movement, jumping and collision detection were prioritised first, followed by level design, collectibles, enemy implementation, testing and documentation. The chart shows a steady reduction in remaining work, reflecting the iterative Agile-inspired development process used throughout the project.
+
+
+### State Diagram
+                 ┌───────────┐
+                 │ Main Menu │
+                 └─────┬─────┘
+                       │
+                       ▼
+                ┌────────────┐
+                │  Playing   │
+                └───┬────┬───┘
+                    │    │
+          Fall/Hit  │    │ Reach Exit
+          Enemy     │    │
+                    ▼    ▼
+             ┌────────┐ ┌──────────────┐
+             │ Game   │ │ Level        │
+             │ Over   │ │ Complete     │
+             └────┬───┘ └──────┬───────┘
+                  │            │
+                  ▼            ▼
+             Restart      Next Level
+                  │            │
+                  └─────┬──────┘
+                        ▼
+                    Playing
+
+The game begins at the Main Menu. Once the player starts the game, they enter the Playing state where movement, jumping, collectibles and enemy interactions occur. If the player falls off the level or collides with a hazard, the Game Over state is triggered and the level restarts. Successfully reaching the level exit transitions the player to the Level Complete state, allowing progression to the next level.
+
 ## 12. Scrum Backlog
 Feature	Priority	Description	Test Criteria
 Player Movement	High	Allow the player to move left and right using keyboard input	Player moves smoothly left/right when keys are pressed
@@ -181,35 +212,114 @@ Scrum Backlog
 | 15 | Final testing       | High     | Planned       | All tests pass                     |
 
 ## 13. Project Management
-Development Log
-Week 1
-Set up project and planned features.
+### Week 1 - Project Setup & Planning
+#### Date: W/C 16 February 2026
+#### Completed:
+- Created GitHub repository
+- Structured README file
+- Sections 1-8 of README completed
+- Planned initial Scrum backlog
+- Set up Unreal Engine Project
+- Implemented basic player movement
 
-Week 2
-Created game window and player.
+#### Planned for Next Week:
+- Improved player movement responsiveness
+- Adjusted jump physics
+  
+#### Problems / Barriers
+- Time constraints
+  
+### Week 2 - Core Gameplay Development
+#### Completed:
+- Improved player movement responsiveness
+- Adjusted jump physics
+- Created basic level layout with platforms
 
-Week 3
-Implemented movement and jumping.
+#### Planned for Next Week:
+- Add fish collectibles
+- Begin UI implementation
 
-Week 4
-Worked on collisions and level design.
+#### Problems / Barriers:
+- Movement initially felt too fast and unrealistic
 
-Week 5
+---
+
+### Week 3 - Level & Mechanics
+#### Completed:
+- Refined level layout
+- Tested platform collisions
+- Began planning collectible system
+
+#### Planned for Next Week:
+- Implement fish collection system
+- Start UI display
+
+#### Problems / Barriers:
+- Collision inconsistencies at platform edges
+
+---
+
+### Week 4 - Testing & Improvements
+#### Completed:
+- Tested gameplay mechanics
+- Improved level design
+- Reviewed backlog progress
+
+#### Planned for Next Week:
+- Implement lives system
+- Add Game Over functionality
+
+#### Problems / Barriers:
+- Time management balancing development and documentation
+
+
+### Week 5
 Added enemies and coins.
 
-Week 6
+### Week 6
 Testing and bug fixing.
 
 Development Meetings
 Development Meetings
-Meeting 1
+###  Development Review Meeting 1
 Discussed overall game idea and core features. Decided to focus on a simple platformer with movement and jumping.
 
-Meeting 2
+###  Development Review Meeting 2
 Reviewed progress and identified challenges with implementing physics and collision detection. Planned next steps for improving gameplay.
 
-Meeting 3
+###  Development Review Meeting 3
 Evaluated overall project progress and focused on documentation, testing and final improvements.
+
+### Development Review Meeting 4
+
+Completed Since Last Meeting:
+- Implemented collectible items
+- Added enemy hazards
+- Improved level layout
+
+Planned Tasks:
+- Perform testing
+- Fix gameplay bugs
+- Update documentation
+
+Current Problems:
+- Collision issues with some objects
+- Balancing jump distances
+
+- ### Development Review Meeting 5
+
+Completed Since Last Meeting:
+- Completed testing
+- Fixed collision bugs
+- Updated README documentation
+
+Planned Tasks:
+- Final review of project
+- Prepare GitHub submission
+- Record project demo
+
+Current Problems:
+- Limited time available for additional features
 
 ## 14. Testing
 | Test               | Expected Result                | Actual Result                | Status |
