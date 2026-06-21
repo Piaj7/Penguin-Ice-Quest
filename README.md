@@ -335,6 +335,8 @@ Current Problems:
 ## 15. Challenges & Solutions
 One challenge was implementing collision detection between the player and platforms. This caused issues where the player would fall through objects. Another problem was time along with. getting the jump mechanics to feel smooth, which required adjusting gravity and jump strength.
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b7921db6-2030-4b30-b78a-a748ea9616ee" />
+
 ## 16. Evaluation
 The project successfully demonstrates the development of a functional 2D platform game. Core gameplay features including player movement, jumping, collision detection and level navigation were implemented successfully. The project also demonstrates the use of software development principles such as planning, testing, debugging and iterative development.
 
